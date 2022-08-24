@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3.4.1
         with:
-          node-version: 14
+          node-version: 16
       - name: Cache npm dependencies
         uses: actions/cache@v3.0.8
         with:
@@ -34,9 +34,9 @@ jobs:
             npm-
       - name: Install dependencies
         run: npm i --ignore-scripts --no-audit --no-progress --prefer-offline
-      - name: Intuit Auto
+      - name: Release
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx auto shipit
+        run: npx release
