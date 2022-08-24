@@ -4,6 +4,7 @@
   "description": "My ESLint config",
   "author": "@marr11317",
   "license": "MIT",
+  "packageManager": "pnpm@7.5.0",
   "scripts": {
     "release": "bumpp package.json --commit --push --tag",
     "clean": "rm -rf node_modules"
