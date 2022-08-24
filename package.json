@@ -1,11 +1,11 @@
 {
   "name": "@marr11317/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My ESLint config",
   "author": "@marr11317",
   "license": "MIT",
   "scripts": {
-    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "release": "bumpp package.json --commit --push --tag",
     "clean": "rm -rf node_modules"
   },
   "repository": {
