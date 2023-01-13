@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:marr11317/eslint-config.git"
+    "url": "git@github.com:ecstrema/eslint-config.git"
   },
   "main": "index.js",
   "files": [
