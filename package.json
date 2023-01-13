@@ -1,8 +1,8 @@
 {
-  "name": "@marr11317/eslint-config",
+  "name": "@ecstrema/eslint-config",
   "version": "0.0.8",
   "description": "My ESLint config",
-  "author": "@marr11317",
+  "author": "@ecstrema",
   "license": "MIT",
   "packageManager": "pnpm@7.5.0",
   "scripts": {
