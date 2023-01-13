@@ -19,5 +19,9 @@ module.exports = {
       "error",
       "always",
     ],
+    "jsonc/comma-dangle": [
+      "error",
+      "always",
+    ],
   },
 };
