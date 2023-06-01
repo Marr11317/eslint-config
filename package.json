@@ -18,7 +18,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@antfu/eslint-config": "^0.38.2"
+    "@antfu/eslint-config": "^0.39.4"
   },
   "peerDependencies": {
     "eslint": "^8.13.0"
